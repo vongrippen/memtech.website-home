@@ -27,3 +27,18 @@ body #pagewrap {
 #pagewrap li.memtech-member {
     text-align: center;
 }
+
+#pagewrap ul.projects {
+    text-align: center;
+}
+
+#pagewrap ul.projects > li {
+    display: inline-block;
+    border-right: 1px solid gray;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+#pagewrap ul.projects > li:last-child {
+    border-right: none;
+}
